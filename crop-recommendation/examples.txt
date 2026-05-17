@@ -1,0 +1,100 @@
+Crop Recommendation Model — Example Inputs & Outputs
+=====================================================
+
+Run: python predict.py
+
+Example 1 — Rice
+Input:
+  Nitrogen (N)         : 90
+  Phosphorus (P)       : 42
+  Potassium (K)        : 43
+  Temperature (deg C)  : 20.88
+  Humidity (%)         : 82.0
+  pH of soil           : 6.5
+  Rainfall (mm)        : 202.9
+Output:
+  Recommended Crop: rice
+
+Example 2 — Cotton
+Input:
+  Nitrogen (N)         : 133
+  Phosphorus (P)       : 47
+  Potassium (K)        : 24
+  Temperature (deg C)  : 24.4
+  Humidity (%)         : 79.2
+  pH of soil           : 7.23
+  Rainfall (mm)        : 90.8
+Output:
+  Recommended Crop: cotton
+
+Example 3 — Coffee
+Input:
+  Nitrogen (N)         : 103
+  Phosphorus (P)       : 18
+  Potassium (K)        : 31
+  Temperature (deg C)  : 26.3
+  Humidity (%)         : 56.0
+  pH of soil           : 6.7
+  Rainfall (mm)        : 189.2
+Output:
+  Recommended Crop: coffee
+
+Example 4 — Orange
+Input:
+  Nitrogen (N)         : 73
+  Phosphorus (P)       : 35
+  Potassium (K)        : 30
+  Temperature (deg C)  : 29.3
+  Humidity (%)         : 76.0
+  pH of soil           : 7.0
+  Rainfall (mm)        : 97.9
+Output:
+  Recommended Crop: orange
+
+Example 5 — Maize
+Input:
+  Nitrogen (N)         : 36
+  Phosphorus (P)       : 70
+  Potassium (K)        : 20
+  Temperature (deg C)  : 22.9
+  Humidity (%)         : 62.0
+  pH of soil           : 6.8
+  Rainfall (mm)        : 100.5
+Output:
+  Recommended Crop: maize
+
+Example 6 — Watermelon
+Input:
+  Nitrogen (N)         : 81
+  Phosphorus (P)       : 32
+  Potassium (K)        : 38
+  Temperature (deg C)  : 25.5
+  Humidity (%)         : 80.0
+  pH of soil           : 5.7
+  Rainfall (mm)        : 55.0
+Output:
+  Recommended Crop: watermelon
+
+Example 7 — Grapes
+Input:
+  Nitrogen (N)         : 30
+  Phosphorus (P)       : 43
+  Potassium (K)        : 32
+  Temperature (deg C)  : 32.0
+  Humidity (%)         : 40.0
+  pH of soil           : 6.6
+  Rainfall (mm)        : 105.0
+Output:
+  Recommended Crop: grapes
+
+Example 8 — Apple
+Input:
+  Nitrogen (N)         : 20
+  Phosphorus (P)       : 25
+  Potassium (K)        : 30
+  Temperature (deg C)  : 10.0
+  Humidity (%)         : 55.0
+  pH of soil           : 6.0
+  Rainfall (mm)        : 60.0
+Output:
+  Recommended Crop: apple

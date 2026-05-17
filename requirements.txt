@@ -1,0 +1,10 @@
+tensorflow
+pillow
+numpy
+fastapi
+uvicorn
+python-multipart
+matplotlib
+opencv-python
+pydantic
+huggingface_hub
