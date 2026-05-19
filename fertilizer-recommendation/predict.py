@@ -51,9 +51,7 @@ def predict_fertilizer(temperature, humidity, moisture, soil_type, crop_type,
 
 
 if __name__ == "__main__":
-    print("=" * 50)
     print("  Fertilizer Recommendation System")
-    print("=" * 50)
     print()
 
     print(f"Soil Types: {', '.join(SOIL_TYPES)}")
@@ -74,6 +72,4 @@ if __name__ == "__main__":
                                     nitrogen, potassium, phosphorous)
 
     print()
-    print("=" * 50)
     print(f"  Recommended Fertilizer: {fertilizer}")
-    print("=" * 50)

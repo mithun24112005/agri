@@ -57,9 +57,7 @@ def predict_crop(n, p, k, temperature, humidity, ph, rainfall):
 
 
 if __name__ == "__main__":
-    print("=" * 50)
     print("  Crop Recommendation System")
-    print("=" * 50)
     print()
 
     n = float(input("Nitrogen (N)         : "))
@@ -73,6 +71,4 @@ if __name__ == "__main__":
     crop = predict_crop(n, p, k, temperature, humidity, ph, rainfall)
 
     print()
-    print("=" * 50)
     print(f"  Recommended Crop: {crop}")
-    print("=" * 50)
