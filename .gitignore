@@ -9,3 +9,9 @@ __pycache__/
 dist/
 build/
 dataset
+diseases
+raw_html
+checkpoints
+qdrant_storage
+crop_data
+disease_detection
