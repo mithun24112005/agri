@@ -16,6 +16,7 @@ CLASS_NAMES = [
     "Grape___healthy",
     "Orange___Haunglongbing_(Citrus_greening)",
     "Peach___Bacterial_spot",
+    "Peach___healthy",
     "Pepper,_bell___Bacterial_spot",
     "Pepper,_bell___healthy",
     "Potato___Early_blight",
